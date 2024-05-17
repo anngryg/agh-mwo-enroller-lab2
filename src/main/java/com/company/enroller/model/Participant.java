@@ -15,7 +15,7 @@ public class Participant {
 	private String login;
 
 	@Column
-	//@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
 	private String password;
 
 	public String getLogin() {
